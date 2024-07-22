@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <link rel="stylesheet" href="css/ofertas.css">
+</head>
+<body>
+    <header id="nombre">
+        <h1>Supermercados Beto</h1>
+    </header>
+
+    <nav class="top-navbar"> <!-- Barra de navegación superior -->
+        <ul id="top-navbar">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="cuenta.html">Cuenta</a></li>
+        </ul>
+    </nav>
+    
+    <div id="ofertas">
+        <h2>Ofertas Especiales</h2>
+        <div class="oferta" onclick="mostrarOferta('oferta1')">
+            <img src="images/puesto-venta-frutas-verduras-tienda_24911-51203.avif" alt="Frutas y Verduras">
+            <h3>Descuento en Frutas y Verduras</h3>
+            <p>¡Aprovecha un 20% de descuento en toda la sección de frutas y verduras frescas!</p>
+            <button class="buscar" onclick="mostrarOferta('oferta1')">Buscar Oferta</button>
+        </div>
+        <div class="oferta" onclick="mostrarOferta('oferta2')">
+            <img src="images/paquete-productos-limpieza-superficies_23-2148541961.avif" alt="Productos de Limpieza">
+            <h3>2x1 en Productos de Limpieza</h3>
+            <p>Compra uno y llévate otro gratis en productos seleccionados de limpieza.</p>
+            <button class="buscar" onclick="mostrarOferta('oferta2')">Buscar Oferta</button>
+        </div>
+        <div class="oferta" onclick="mostrarOferta('oferta3')">
+            <img src="images/85827562-ilustración-de-vector-de-dibujos-animados-casa-electrónica.jpg" alt="Electrónicos">
+            <h3>Rebajas en Electrónicos</h3>
+            <p>Hasta un 30% de descuento en electrónicos y pequeños electrodomésticos.</p>
+            <button class="buscar" onclick="mostrarOferta('oferta3')">Buscar Oferta</button>
+        </div>
+    </div>
+
+    <footer> <!--Pie de Página con Datos Importantes-->
+        <table id="footer">
+            <thead>
+                <tr class="headers">
+                    <td>Contáctanos</td>
+                    <td>Nosotros</td>
+                    <td>Atención al Cliente</td>
+                    <td>Políticas y Condiciones</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <ul class="foot-ls">
+                            <li><a href="#">Asistente virtual</a></li>
+                            <li><a href="#">Escríbenos</a></li>
+                            <li><a href="#">Llámanos</a></li>
+                            <li><a href="#">Visítanos</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="foot-ls">
+                            <li><a href="#">Conócenos</a></li>
+                            <li><a href="#">Trabaja con nosotros</a></li>
+                            <li><a href="#">Responsabilidad social</a></li>
+                            <li><a href="#">Nuestras tiendas</a></li>
+                            <li><a href="#">Ventas corporativas</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="foot-ls">
+                            <li><a href="#">Tutorial de Compra</a></li>
+                            <li><a href="#">Horarios de Atención</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Cambios y Devoluciones</a></li>
+                            <li><a href="#">Comprobante Electrónico</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="foot-ls">
+                            <li><a href="#">Política de Datos Personales</a></li>
+                            <li><a href="#">Derecho ARCO y Privacidad</a></li>
+                            <li><a href="#">Condiciones de Promociones</a></li>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+</body>
+</html>
